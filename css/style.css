@@ -18,6 +18,8 @@
     --success: #1ecab8;
     --danger: #f1646c;
     --footer: #212a4a;
+    --dark-gray: #171f33;
+    --yellow: #f3c74d;
 
 }
 /* Reset */
@@ -301,7 +303,7 @@ section.skills .content .left .heading {
     margin-bottom: 2rem;
 }
 
-section.skills .content .left .heading i {
+section.skills .content .left .heading .img {
     color: var(--fade);
     font-size: 52px;
 }
@@ -383,4 +385,45 @@ section.skills .skills__wrapper .skill-box .progress__wrap .progress__bar .tool-
     color: var(--ternary);
     font-size: 16px;
     text-transform: uppercase;
+}
+
+section.counter__section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: var(--black);
+    clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+section.counter__section > div {
+    display: flex;
+    align-items: center;
+}
+
+section.counter__section div.img {
+    font-size: 42px;
+    margin-right: 1rem;
+}
+
+section.counter__section > div:nth-child(1) .img {
+    color: var(--yellow);
+}
+
+section.counter__section > div:nth-child(2) .img {
+    color: var(--success);
+}
+
+section.counter__section > div:nth-child(3) .img {
+    color: var(--dribble);
+}
+
+section.counter__section > div h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--fade);
+    margin-bottom: 8px;
+}
+
+section.counter__section > div h5 {
+    font-size: 14px;
+    color: var(--fade);
 }
