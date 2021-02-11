@@ -33,7 +33,6 @@
 body {
     font-family: "IBM plex sans", sans-serif;
     background: var(--dark);
-    -webkit-font-smoothing: antialised;
     height: 5000px;
 }
 
@@ -466,14 +465,14 @@ section.work .wrapper .portfolio .tabs ul li a.active {
 
 section.work .wrapper .portfolio .portfolio__wrapper {
     margin-top: 4rem;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
     display: flex;
 }
 
-section.work .wrapper .portfolio .portfolio__wrapper .item {
+section.work .wrapper .portfolio .portfolio__wrapper div.item {
     flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    max-width: 33%;
 }
 
 section.work .wrapper .portfolio .portfolio__wrapper a img {
@@ -482,3 +481,4 @@ section.work .wrapper .portfolio .portfolio__wrapper a img {
     height: 100%;
     object-fit: cover;
 }
+

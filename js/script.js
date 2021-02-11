@@ -53,7 +53,7 @@ $(document).ready(function(){
 
     // Image Filter
 
-    var $wrapper = $('portfolio__wrapper')
+    let $wrapper = $('.portfolio__wrapper')
 
     // Initialisation isotope
 
