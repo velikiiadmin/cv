@@ -550,7 +550,7 @@ section.contact .wrapper .left > div div:nth-child(1) {
     margin-right: 10px;
 }
 
-section.contact .wrapper .left i {
+section.contact .wrapper .left .img {
     font-size: 30px;
     color: var(--info);
 }
