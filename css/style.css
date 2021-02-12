@@ -534,7 +534,7 @@ section.partners .brands__wrapper {
 
 section.contact .wrapper {
     display: grid;
-    grid-auto-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 60px;
     margin-top: 40px;
     align-items: center;
